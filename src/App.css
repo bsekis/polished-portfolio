@@ -1,0 +1,246 @@
+/* body styles */
+body {
+    background-color: #FBAB7E;
+    background: linear-gradient(180deg, #FBAB7E 0%, #F7CE68 100%) no-repeat scroll;
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    line-height: 1.7rem;
+}
+#root{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* particles ... for the interaction to work while other elements remain interactable, the other elements must be position: relative */
+#tsparticles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.container, .content {
+    position: relative;
+}
+
+/* text selection */
+::selection{
+    background-color: rgba(142, 157, 204, .5);
+}
+.bodyfont {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    margin: 0 0 1rem 0;
+    font-weight: 800;
+    font-size: 2rem;
+}
+h2 {
+    font-size: 1.8rem;
+}
+h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+h3 {
+    margin-top: -.7rem;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+.navbar-collapse .nav-link{
+    font-size: 1.5rem;
+}
+
+/* link styles */
+.content p a {
+    color: #FBAB7E;
+    font-weight: 600;
+}
+.content p a:hover {
+    color: #F7CE68;
+    animation: pulse 5s alternate;
+    animation-iteration-count: infinite; 
+}
+
+a h2 {
+    color: rgba(255,255,255,.7);
+}
+
+a h2:hover {
+    color: rgba(255,255,255,.8);
+    text-shadow: 2px 2px 10px rgba(255,255,255,.5);
+}
+
+/* page content styles*/
+.container {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin: 3rem auto;
+    padding: 1rem 1rem;
+    /* padding: 3rem 4rem 4rem 4rem; */
+    /* border-radius: 20px; */
+    /* box-shadow: 3px 3px 5px 1px rgba(46, 49, 49, .3); */
+}
+
+.content {
+    padding: 3rem 1rem;
+}
+
+.container p {
+    margin: .8rem 0;
+}
+
+/* about page styles */
+.proPic {
+
+    /* height: 150px;
+    width: 150px; */
+    margin: 0 1rem .5rem 0;
+    color: rgba(255,255,255, .5);
+    text-align: center;
+    /* padding: 3rem 1rem; */
+    /* border-radius: 10px; */
+    /* background-image: url('https://via.placeholder.com/150'); */
+}
+
+.resume {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+/* btn styles */
+.cusBtn{
+    background-color: #8E9DCC;
+    border: 1px solid #8E9DCC;
+}
+.cusBtn:hover{
+    background-color: #7D84B2;
+    border: 1px solid #7D84B2;
+    position: relative;
+}
+.cusBtn:focus
+{
+    outline-color: #8E9DCC;
+    background-color: #7D84B2;
+    border: 1px solid #7D84B2;
+    position: relative;
+    box-shadow: 0 0 1px 3px rgba(251, 171, 126, .5);
+}
+
+/* had to get super specific to override bootstrap style 🙄  */
+.resume > .btn-group > .cusBtn:active, 
+.resume > .btn-group > .cusBtn:active:hover,
+.resume > .btn-group > .cusBtn:active:focus
+{
+    outline-color: #8E9DCC;
+    background-color: #7D84B2;
+    border: 1px solid #7D84B2;
+    position: relative;
+    box-shadow: 3px 3px 3px 1px rgba(46, 49, 49, .3) inset;
+}
+/* footer styles */
+/* had to get super specific to override bootstrap style 🙄  */
+.footer {
+    margin-top: auto;
+}
+.footer .navbar-text{
+    color: rgba(255,255,255);
+}
+.footer .navbar-text .iconLink {
+    color: rgba(255,255,255,.7);
+}
+.iconLink:hover {
+    position: relative;
+    top: -1px;
+    color: rgba(255,255,255);
+    cursor: pointer;
+}
+.toTop {
+    margin: 0 0 -.7rem 0;
+}
+
+/*  */
+@media only screen and (min-width: 350px){
+    /* card links box */
+.infobox div {
+    flex-direction: row;
+}
+
+}
+
+@media only screen and (min-width: 576px){
+.container {
+    border-radius: 10px;
+    padding: 2rem;
+      box-shadow: 3px 3px 5px 1px rgba(46, 49, 49, .3);
+}
+.proPic{
+    float: left;
+    /* width: 50%;
+    height: 50%; */
+} 
+.proPic img {
+    width: 100%;
+    height: 100%;
+} 
+
+}
+
+@media only screen and (min-width: 768px){
+    .card .card-body{
+        flex-direction: row;
+        align-items: start;
+    }
+    .card-body div {
+        padding: .3rem 1rem;
+        flex: 1 1 40%;
+    }
+    .card .card-img{
+        width: 100%;
+    }
+        /* card links box */
+.infobox div {
+    flex-direction: column;
+}
+}
+
+@media only screen and (min-width: 992px){
+    .container {
+        padding: 2rem 3rem 2rem 3rem;
+    }
+        /* card links box */
+.infobox div {
+    flex-direction: row;
+}
+
+h2{
+    font-size: 2rem;
+}
+h1 {font-size: 2.3rem;}
+}
+
+/* animation */
+@keyframes pulse {
+    100%,0%{
+        color: #FBAB7E;
+    }
+    25%{
+        color: #F7CE68;
+    }
+    45%{
+        color: #8E9DCC;
+    }
+    50%{
+        color: rgba(125, 132, 178, .8);
+    }
+    55%{
+        color: #8E9DCC;
+    }
+    75% {
+        color: #F7CE68;
+    }
+}

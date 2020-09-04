@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "Password Generator",
+        "description": "The goal was to create a password generator that validates user input and randomly creates a password based upon the user's specifications. User can click copy to clipboard button for ease of experience.",
+        "livelink": "https://chenallee.github.io/password-generator/",
+        "codelink": "https://github.com/chenallee/password-generator",
+        "technologies": ["jQuery","Bootstrap"],
+        "img": "password_sm.png"
+    },
+    {
+        "id": 2,
+        "title": "Weather Dashboard",
+        "description": "Allows user to search for current weather and 5 day forecast for the searched city. Uses the Open Weather API and moment.js as well as local storage to store past searches.",
+        "livelink": "https://chenallee.github.io/weather-dashboard/",
+        "codelink": "https://github.com/chenallee/weather-dashboard",
+        "technologies": ["jQuery", "Bootstrap"],
+        "img": "weather_m.png"
+    },
+    {
+        "id": 3,
+        "title": "Lyryx Webplayer",
+        "description": "Music streaming app that utilizes Spotify's API and Web Playback SDK as well as Lyrics.OVH API to allow Spotify Premium subscribers to view the lyrics of the currently playing track. Worked on the main JavaScript code to give functionality to the design. Unfortunately, Spotify Premium is necessary to access the player but screenshots of user flow will be added to the Github readme.",
+        "livelink": "https://rjkaz.github.io/Concatenated-Cats/",
+        "codelink": "https://github.com/RJKAZ/Concatenated-Cats",
+        "technologies": ["JavaScript", "OAuth"],
+        "img": "lyrics_sm.png"
+    },
+    {
+        "id": 4,
+        "title": "Burger Bytes",
+        "description": "The goal was to create a site to allow users basic CRUD operations, in this case themed with burger types. The user interactions are sent through API routes to interact with the database.",
+        "livelink": "https://desolate-badlands-05368.herokuapp.com/",
+        "codelink": "https://github.com/chenallee/handlebars-burger-app",
+        "technologies": ["Node.js", "Express", "Handlebars", "MySQL"],
+        "img": "burger_sm.png"
+    },
+    {
+        "id": 5,
+        "title": "Watchlzt API",
+        "description": "API that allows authenticated users to track how they watch shows. User can add shows to their watchlist and mark their status as to watch, watching, or completed. Interacts with TvMaze API and built on MySQL database.",
+        "livelink": "",
+        "codelink": "https://github.com/BRETTSMITH103/project-2",
+        "technologies": ["Node.js", "Express", "MySQL", "Sequelize", "JSON Webtokens"],
+        "img": "watchlztAPI_getusers.png"
+    },
+    {
+        "id": 6,
+        "title": "Employee Directory",
+        "description": "The goal of the Employee Directory app is to make it easy for one to find what they need in a large dataset of employees by allowing several filter and sort options.",
+        "livelink": "https://employee-directory-react.now.sh/",
+        "codelink": "https://github.com/chenallee/employee-directory-react",
+        "technologies": ["React", "Bootstrap"],
+        "img": "employee_sm.png"
+    }
+]

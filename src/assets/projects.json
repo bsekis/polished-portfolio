@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "title": "Weather App",
+        "description": "As a traveler I want to see the weather outlook for multiple cities so that I can plan a trip accordingly",
+        "codelink": "https://github.com/bsekis/weatherhw",
+        "technologies": ["html, Javascript"],
+        "img": "weather-screen.jpg"
+    },
+    {
+        "id": 2,
+        "title": "RecipeHound",
+        "description": "Everyone likes food, but not everyone likes to cook; As a human, I need to eat. Coming up with unique meal ideas based on what’s in my kitchen is a nearly impossible task. I want to make this daily task easier by finding recipes by searching for proteins, vegetables, starches, calorie counts, etc.",
+        "codelink": "https://github.com/CallieCrownover/project1",
+        "technologies": ["Materialize, APIs"],
+        "img": "project-screen.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Day Planner",
+        "description": "As an employee with a busy schedule I want to add important events to a daily planner so that I can manage my time effectively",
+        "codelink": "https://github.com/bsekis/calendarhw",
+        "technologies": ["Javascript, APIs"],
+        "img": "dayplanner-screen.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Birthday Master",
+        "description": "User wants a clean responsive app to display the information “As a kind and thoughtful human being, I want to keep track of when my friends and family members birthdays are. As well as what gifts I’ve given them in previous years. It is important to me to have all this information in one location in an easy to use, well displayed application”",
+        "livelink": "https://desolate-journey-79245.herokuapp.com/",
+        "codelink": "https://github.com/bsekis/Project-2-",
+        "technologies": ["React", "Bootstrap"],
+        "img": "birthday-master.png"
+    },
+    {
+        "id": 5,
+        "title": "Code Quiz",
+        "description": "This is a quiz game where the user has a certain amount of time to answer questions. The game ends once the timer runs out or there are no more questions to answer. Allow users to input their initials for a high score board which is saved in local storage.",
+        "codelink": "https://github.com/bsekis/code-quiz",
+        "technologies": ["Javascript"],
+        "img": "code-quiz.png"
+    }
+]
